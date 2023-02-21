@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - print _putchar
- * written by Crenacia
+ * is written by Crenacia
  * Return: 0
  */
 
