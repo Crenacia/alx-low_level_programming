@@ -7,7 +7,7 @@
 
 void print_alphabet_x10(void)
 {
-	int start = 99, end = 124, count = 1;
+	int start = 97, end = 122, count = 1;
 
 	while (count <= 10)
 	{
@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 			start++;
 		}
 		_putchar('\n');
-		start = 99;
+		start = 97;
 		count++;
 	}
 }
