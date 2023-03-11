@@ -24,6 +24,7 @@ int check_num(char *str)
 			return (0);
 		}
 		count++;
+	}
 		return (1);
 	}
 
@@ -64,5 +65,3 @@ int check_num(char *str)
 
 		return (0);
 	}
-}
-
