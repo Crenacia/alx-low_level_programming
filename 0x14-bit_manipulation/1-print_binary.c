@@ -6,12 +6,12 @@
  */
 void print_binary(unsigned long int n)
 {
-	int i, count = 0;
+	int h, count = 0;
 	unsigned long int current;
 
-	for (i = 63; i >= 0; i--)
+	for (h = 63; h >= 0; h--)
 	{
-		current = n >> i;
+		current = n >> h;
 
 		if (current & 1)
 		{
