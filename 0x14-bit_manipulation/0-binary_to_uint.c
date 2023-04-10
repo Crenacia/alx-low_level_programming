@@ -8,17 +8,19 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int h;
+	int n;
 	unsigned int dec_val = 0;
 
 	if (!b)
 		return (0);
 
-	for (h = 0; b[h]; h++)
+	for (n = 0; b[n]; n++)
 	{
-		if (b[h] < '0' || b[h] > '1')
+		if (b[n] < '0' || b[n] > '1')
 			return (0);
-		dec_val = 2 * dec_val + (b[h] - '0');
+		dec_val = 2 * dec_val + (b[n] - '0');
 	}
-		return (dec_val);
+
+	return (dec_val);
 }
+
